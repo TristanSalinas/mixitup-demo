@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="menu-section__main-course-filters">
+      <button type="button" data-filter="all">All</button>
+      <button type="button" data-filter=".fish">Fish</button>
+      <button type="button" data-filter=".meat">Meat</button>
+      <button type="button" data-filter=".vegan">Vegan</button>
+    </div>
+
+    <div id="main-courses" class="container dishes-grid">
+      <div class="dish mix fish">Salmon</div>
+      <div class="dish mix meat">Steak</div>
+      <div class="dish mix vegan">Veggie Burger</div>
+      <div class="dish mix fish">Tuna</div>
+      <div class="dish mix meat">Chicken</div>
+      <div class="dish mix vegan">Tofu Stir Fry</div>
+    </div>
+
+    <script src="mixitup.min.js"></script>
+    <script src="mixitup-multifilter.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
